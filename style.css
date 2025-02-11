@@ -1,12 +1,10 @@
 /* Asosiy sahifa uslubi */
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background: url('https://raw.githubusercontent.com/nursulton2/my-website/refs/heads/main/4C7B5DAC-1789-49DE-B7B8-FB89DE517E21.png') no-repeat center center fixed;
+bbody {
+    background-image: url('https://raw.githubusercontent.com/nursulton2/my-website/main/4C7B5DAC-1789-49DE-B7B8-FB89DE517E21.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
-    color: white;
-    margin: 0;
-    padding: 20px;
 }
 
 /* Sarlavha (Header) */
