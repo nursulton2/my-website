@@ -1,42 +1,37 @@
+/* Asosiy sahifa uslubi */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background: linear-gradient(to right, #6a11cb, #2575fc);
+    background: linear-gradient(to right, #0057B7, #FFD700);
     color: white;
     margin: 0;
     padding: 20px;
 }
 
-.container {
-    max-width: 600px;
-    margin: auto;
+/* Sarlavha (Header) */
+header {
+    background: rgba(0, 0, 0, 0.3);
     padding: 20px;
-    background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-h1 {
-    font-size: 28px;
+/* Havolalar bo‘limi */
+.links {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
 }
 
-p {
-    font-size: 18px;
-}
-
-.buttons {
-    margin-top: 20px;
-}
-
+/* Tugmalar */
 .btn {
-    display: block;
-    width: 80%;
-    margin: 10px auto;
-    padding: 15px;
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
     text-decoration: none;
-    font-size: 20px;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: transform 0.2s, opacity 0.3s;
 }
 
 .telegram { background: #0088cc; color: white; }
@@ -44,5 +39,14 @@ p {
 .youtube { background: #FF0000; color: white; }
 
 .btn:hover {
+    transform: scale(1.1);
     opacity: 0.8;
+}
+
+/* Pastki qism (Footer) */
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
