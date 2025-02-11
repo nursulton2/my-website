@@ -2,7 +2,8 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background: linear-gradient(to right, #0057B7, #FFD700);
+    background: url('A_detailed_and_vibrant_background_combining_tradit.png') no-repeat center center fixed;
+    background-size: cover;
     color: white;
     margin: 0;
     padding: 20px;
@@ -10,7 +11,7 @@ body {
 
 /* Sarlavha (Header) */
 header {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.6);
     padding: 20px;
     border-radius: 10px;
 }
@@ -47,6 +48,6 @@ header {
 footer {
     margin-top: 30px;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
 }
