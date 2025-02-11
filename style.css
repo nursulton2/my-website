@@ -1,51 +1,44 @@
-/* Asosiy sahifa uslubi */
-bbody {
+body {
     background-image: url('https://raw.githubusercontent.com/nursulton2/my-website/main/4C7B5DAC-1789-49DE-B7B8-FB89DE517E21.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
-/* Sarlavha (Header) */
-header {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    border-radius: 10px;
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
 }
 
-/* Havolalar bo‘limi */
-.links {
-    margin-top: 30px;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
-/* Tugmalar */
-.btn {
-    display: inline-block;
-    margin: 10px;
-    padding: 15px 30px;
-    font-size: 18px;
+.links a {
+    display: block;
+    font-size: 1.5em;
+    color: white;
     text-decoration: none;
-    border-radius: 5px;
-    transition: transform 0.2s, opacity 0.3s;
-}
-
-.telegram { background: #0088cc; color: white; }
-.instagram { background: #E1306C; color: white; }
-.youtube { background: #FF0000; color: white; }
-
-.btn:hover {
-    transform: scale(1.1);
-    opacity: 0.8;
-}
-
-/* Pastki qism (Footer) */
-footer {
-    margin-top: 30px;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.6);
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid white;
     border-radius: 10px;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    background: white;
+    color: black;
 }
